@@ -8,7 +8,7 @@ app.get('/api/customers',(req, res) => {
     const customers = [
         { id: 1, firstName: "John", lastName: 'Doe'},
         { id: 2, firstName: "Steve", lastName: 'Smith'},
-        { id: 3, firstName: "Brad", lastName: 'Hussy'}
+        { id: 3, firstName: "Ron", lastName: 'Wisely'}
     ];
     res.json(customers);
 });
